@@ -6,6 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListadoComponent } from './heroes/listado/listado.component';
+import { MessagesComponent } from './messages/messages.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { ListadoComponent } from './heroes/listado/listado.component';
     AppComponent,
     HeroeComponent,
     ListadoComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
