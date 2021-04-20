@@ -9,7 +9,8 @@ import { NgModule } from '@angular/core';
   declarations:[
   HeroeComponent,
   ListadoComponent,
-  
+
+
 
   ],
   exports: [
